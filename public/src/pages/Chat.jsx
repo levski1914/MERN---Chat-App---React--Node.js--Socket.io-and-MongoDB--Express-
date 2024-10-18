@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 // import Contacts from "../components/Contacts";
 // import Contacts from "../components/contacts";
-import Contacts from "../components/contacts";
+import Contacts from "../components/Contacts";
 import { allUsersRoute, host } from "../utils/APIroutes";
 import Welcome from "../components/Welcome";
 import ChatContainer from "../components/ChatContainer";
