@@ -1,4 +1,5 @@
-export const host = "http://localhost:3000";
+export const host =
+  "mongodb+srv://lamborghinigd:ferrari11@cluster0.zhgjlbl.mongodb.net/";
 
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/api/auth/login`;
