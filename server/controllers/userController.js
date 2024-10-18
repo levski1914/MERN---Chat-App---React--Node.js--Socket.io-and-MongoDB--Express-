@@ -1,5 +1,5 @@
 const User = require("../models/User");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 // const { use } = require("../routes/userRoutes");
 module.exports.register = async (req, res, next) => {
   try {
