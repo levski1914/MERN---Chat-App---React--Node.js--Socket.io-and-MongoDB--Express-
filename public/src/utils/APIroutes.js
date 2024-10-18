@@ -1,5 +1,5 @@
 export const host =
-  "mongodb+srv://lamborghinigd:ferrari11@cluster0.zhgjlbl.mongodb.net/";
+  "https://mern-chat-app-react-node-js-socket-io.onrender.com";
 
 export const registerRoute = `${host}/api/auth/register`;
 export const loginRoute = `${host}/api/auth/login`;
